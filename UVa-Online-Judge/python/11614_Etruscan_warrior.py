@@ -1,5 +1,7 @@
 import math
 
+# Gauss Sum n(n+1)/2 = sum
+
 def get_etruscan_warrior_formation(warriors: int) -> int:
     return int((math.sqrt(1+warriors*8) - 1) / 2)
 
