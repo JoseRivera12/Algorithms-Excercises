@@ -5,6 +5,11 @@ import (
 	"strings"
 )
 
+// Aprendizajes
+
+// Golang rune is unicode caracters
+// if we need to pass string number to int number - 0 like - a or - A
+
 func roundNumber(num string) string {
 	parts := strings.Split(num, ".")
 	intPart := parts[0]
